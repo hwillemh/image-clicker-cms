@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+
+.editor-styles-wrapper {
+    background-color: brown;
+
+    p.block-editor-rich-text__editable {
+        font-size: 16px;
+        font-family: '"Libre Baskerville", serif';
+    }
+
+    strong {
+        font-family: "Gotham A", "Gotham B", "Helvetica", sans-serif;
+    }
+    *.body2{
+        font-family: '"Libre Baskerville", serif';
+    }
+    *.poster, h1.wp-block-post-title  {
+        font-family: "Gotham A", "Gotham B", "Helvetica", sans-serif;
+        font-weight: 900;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5 {
+        &.wp-block-heading {
+            font-family: "Gotham A", "Gotham B", "Helvetica", sans-serif;
+            font-weight: 900;
+        }
+
+    }
+}

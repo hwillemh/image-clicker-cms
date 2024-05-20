@@ -1,0 +1,86 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 12, 2020, 2:17:15 PM
+    Author     : wh
+*/
+#article-items .image-column .attachment .thumbnail {
+  position: static;
+}
+#article-items .image-column .attachment .thumbnail:after {
+  box-shadow: none;
+}
+#article-items .image-column .attachment .thumbnail .centered {
+  transform: none;
+  position: static;
+}
+#article-items .image-column .attachment .thumbnail .centered img {
+  transform: none;
+  position: static;
+  display: block;
+}
+#article-items .image-column .attachment-preview {
+  box-shadow: none;
+  background: transparent;
+}
+#article-items .image-column .attachment-preview:before {
+  padding: 0;
+}
+#article-items .image-column .edit-post-meta-boxes-area .postbox {
+  border-top: 3px solid;
+}
+#article-items .video-column .rwmb-video-item {
+  max-width: 100%;
+  max-height: 300px;
+}
+
+#article-content h2,
+#article-items h2 {
+  font-size: 2rem;
+}
+#article-content .item-title,
+#article-items .item-title {
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.rwmb-row .rwmb-fieldset_text-clone {
+  display: flex;
+  align-items: center;
+}
+.rwmb-row .rwmb-fieldset_text-clone fieldset {
+  width: 100%;
+  display: flex;
+}
+.rwmb-row .rwmb-fieldset_text-clone fieldset p {
+  flex-basis: 45%;
+  margin-right: 5%;
+}
+.rwmb-row .rwmb-fieldset_text-clone fieldset input,
+.rwmb-row .rwmb-fieldset_text-clone fieldset p {
+  width: 100%;
+}
+.rwmb-row .rwmb-fieldset_text-clone a {
+  text-decoration: none;
+  margin-top: 10px;
+}
+
+.page-meta .rwmb-post-wrapper a {
+  text-decoration: none;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.page-meta .rwmb-post-wrapper label {
+  margin-bottom: 24px;
+  display: block;
+  font-weight: 600;
+}
+.page-meta .rwmb-input.ui-sortable {
+  display: flex;
+}
+.page-meta .rwmb-input.ui-sortable .rwmb-clone {
+  flex-basis: 30%;
+}/*# sourceMappingURL=smg-metabox.css.map */

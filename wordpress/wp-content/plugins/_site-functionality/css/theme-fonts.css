@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap");
+.editor-styles-wrapper {
+  background-color: brown;
+}
+.editor-styles-wrapper p.block-editor-rich-text__editable {
+  font-size: 16px;
+  font-family: '"Libre Baskerville", serif';
+}
+.editor-styles-wrapper strong {
+  font-family: "Gotham A", "Gotham B", "Helvetica", sans-serif;
+}
+.editor-styles-wrapper *.body2 {
+  font-family: '"Libre Baskerville", serif';
+}
+.editor-styles-wrapper *.poster, .editor-styles-wrapper h1.wp-block-post-title {
+  font-family: "Gotham A", "Gotham B", "Helvetica", sans-serif;
+  font-weight: 900;
+}
+.editor-styles-wrapper h1.wp-block-heading,
+.editor-styles-wrapper h2.wp-block-heading,
+.editor-styles-wrapper h3.wp-block-heading,
+.editor-styles-wrapper h4.wp-block-heading,
+.editor-styles-wrapper h5.wp-block-heading {
+  font-family: "Gotham A", "Gotham B", "Helvetica", sans-serif;
+  font-weight: 900;
+}/*# sourceMappingURL=theme-fonts.css.map */

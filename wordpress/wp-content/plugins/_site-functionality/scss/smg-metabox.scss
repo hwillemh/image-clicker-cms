@@ -1,0 +1,117 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 12, 2020, 2:17:15 PM
+    Author     : wh
+*/
+
+#article-items {
+    .image-column {
+        .attachment .thumbnail {
+            position: static;
+
+            &:after {
+                box-shadow: none;
+            }
+
+            .centered {
+                transform: none;
+                position: static;
+
+                img {
+                    transform: none;
+                    position: static;
+                    display: block;
+                }
+            }
+        }
+
+        .attachment-preview {
+            box-shadow: none;
+            background: transparent;
+
+            &:before {
+                padding: 0;
+            }
+        }
+
+        .edit-post-meta-boxes-area .postbox {
+            border-top: 3px solid;
+        }
+    }
+
+    .video-column {
+        .rwmb-video-item {
+            max-width: 100%;
+            max-height: 300px;
+        }
+    }
+}
+
+#article-content,
+#article-items {
+    h2 {
+        font-size: 2rem;
+    }
+
+    .item-title {
+        font-weight: 600;
+        font-size: 1rem;
+    }
+}
+
+.rwmb-row {
+    .rwmb-fieldset_text-clone {
+        display: flex;
+        align-items: center;
+
+        fieldset {
+            width: 100%;
+            display: flex;
+
+            p {
+                flex-basis: 45%;
+                margin-right: 5%
+            }
+
+            input,
+            p {
+                width: 100%
+            }
+        }
+
+        a {
+            text-decoration: none;
+            margin-top: 10px;
+        }
+    }
+}
+
+.page-meta {
+
+    .rwmb-post-wrapper {
+        a {
+            text-decoration: none;
+            margin-top: 10px;
+            margin-left: 10px;
+        }
+
+        label {
+            margin-bottom: 24px;
+            display: block;
+            font-weight: 600;
+        }
+    }
+
+    .rwmb-input.ui-sortable {
+
+        display: flex;
+
+        .rwmb-clone {
+            flex-basis: 30%;
+        }
+    }
+}
